@@ -8,31 +8,35 @@ package org.got5.tapestry5.jquery;
  */
 public class EffectsConstants {
 
-	 public static final String BLIND = "${jquery.ui.path}/jquery.ui.effect-blind.js";
+	 public static final String BLIND = "${jquery.ui.path}/effect-blind.js";
 
-	 public static final String BOUNCE = "${jquery.ui.path}/jquery.ui.effect-bounce.js";
+	 public static final String BOUNCE = "${jquery.ui.path}/effect-bounce.js";
 
-	 public static final String CLIP = "${jquery.ui.path}/jquery.ui.effect-clip.js";
+	 public static final String CLIP = "${jquery.ui.path}/effect-clip.js";
 
-	 public static final String DROP = "${jquery.ui.path}/jquery.ui.effect-drop.js";
+	 public static final String DROP = "${jquery.ui.path}/effect-drop.js";
 
-	 public static final String EXPLODE = "${jquery.ui.path}/jquery.ui.effect-explode.js";
+	 public static final String EXPLODE = "${jquery.ui.path}/effect-explode.js";
 
-	 public static final String FADE = "${jquery.ui.path}/jquery.ui.effect-fade.js";
+	 public static final String FADE = "${jquery.ui.path}/effect-fade.js";
 
-	 public static final String FOLD = "${jquery.ui.path}/jquery.ui.effect-fold.js";
+	 public static final String FOLD = "${jquery.ui.path}/effect-fold.js";
 
-	 public static final String HIGHLIGHT = "${jquery.ui.path}/jquery.ui.effect-highlight.js";
+	 public static final String HIGHLIGHT = "${jquery.ui.path}/effect-highlight.js";
+	 
+	 public static final String PUFF = "${jquery.ui.path}/effect-puff.js";
 
-	 public static final String PULSATE = "${jquery.ui.path}/jquery.ui.effect-pulsate.js";
+	 public static final String PULSATE = "${jquery.ui.path}/effect-pulsate.js";
 
-	 public static final String SCALE = "${jquery.ui.path}/jquery.ui.effect-scale.js";
+	 public static final String SCALE = "${jquery.ui.path}/effect-scale.js";
 
-	 public static final String SHAKE = "${jquery.ui.path}/jquery.ui.effect-shake.js";
+	 public static final String SHAKE = "${jquery.ui.path}/effect-shake.js";
+	 
+	 public static final String SIZE = "${jquery.ui.path}/effect-size.js";
 
-	 public static final String SLIDE = "${jquery.ui.path}/jquery.ui.effect-slide.js";
+	 public static final String SLIDE = "${jquery.ui.path}/effect-slide.js";
 
-	 public static final String TRANSFER = "${jquery.ui.path}/jquery.ui.effect-transfer.js";
+	 public static final String TRANSFER = "${jquery.ui.path}/effect-transfer.js";
 
 	 public static final String SHOW = "${tapestry.jquery.path}/jquery.effects.show.js";
 

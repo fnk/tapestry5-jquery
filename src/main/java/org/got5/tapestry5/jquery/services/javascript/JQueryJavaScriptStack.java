@@ -15,9 +15,7 @@
 //
 package org.got5.tapestry5.jquery.services.javascript;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 import org.apache.tapestry5.Asset;
 import org.apache.tapestry5.func.F;
@@ -26,13 +24,10 @@ import org.apache.tapestry5.internal.services.javascript.CoreJavaScriptStack;
 import org.apache.tapestry5.ioc.annotations.Symbol;
 import org.apache.tapestry5.ioc.services.SymbolSource;
 import org.apache.tapestry5.services.AssetSource;
-import org.apache.tapestry5.services.javascript.JavaScriptStack;
-import org.apache.tapestry5.services.javascript.JavaScriptStackSource;
-import org.apache.tapestry5.services.javascript.StylesheetLink;
+import org.apache.tapestry5.services.javascript.*;
 import org.got5.tapestry5.jquery.JQuerySymbolConstants;
 import org.got5.tapestry5.jquery.services.EffectsParam;
 import org.got5.tapestry5.jquery.services.JavaScriptFilesConfiguration;
-import org.got5.tapestry5.jquery.utils.JQueryUtils;
 
 /**
  * Replacement for {@link CoreJavaScriptStack}.
@@ -111,16 +106,13 @@ public class JQueryJavaScriptStack implements JavaScriptStack {
 			}
 		};
 
-		final Mapper<String, StylesheetLink> pathToStylesheetLink = F.combine(
-				pathToAsset, JQueryUtils.assetToStylesheetLink);
-
 		jQueryJsStack = F
 				.flow("${jquery.core.path}",
-						"${jquery.ui.path}/jquery.ui.core.js",
-						"${jquery.ui.path}/jquery.ui.position.js",
-						"${jquery.ui.path}/jquery.ui.widget.js",
-						"${jquery.ui.path}/jquery.ui.effect.js",
-						"${tapestry.jquery.path}/jquery.json-2.2.js")
+						"${jquery.ui.path}/core.js",
+						"${jquery.ui.path}/position.js",
+						"${jquery.ui.path}/widget.js",
+						"${jquery.ui.path}/effect.js",
+						"${tapestry.jquery.path}/jquery.json-2.5.1.js")
 				.concat(F.flow(this.effectsParam.getEffectsToLoad()))
 				.map(pathToAsset).toList();
 

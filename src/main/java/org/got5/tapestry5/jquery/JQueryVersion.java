@@ -13,5 +13,5 @@ public class JQueryVersion {
 
     public static final String CORE_2_x = "2.1.1";
 
-    public static final String UI_1_10_3 = "1.10.3";
+    public static final String UI_1_x = "1.11.0";
 }

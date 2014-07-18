@@ -8,9 +8,9 @@
  * http://docs.jquery.com/UI/Tooltip
  *
  * Depends:
- *	jquery.ui.core.js
- *	jquery.ui.widget.js
- *  jquery.ui.position.js
+ *	core.js
+ *	widget.js
+ *  position.js
  */
 (function($) {
 

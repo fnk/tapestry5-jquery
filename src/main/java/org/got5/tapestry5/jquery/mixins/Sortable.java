@@ -24,7 +24,7 @@ import org.got5.tapestry5.jquery.JQueryEventConstants;
  * @tapestrydoc
  */
 @Events(JQueryEventConstants.SORTABLE)
-@ImportJQueryUI({"jquery.ui.mouse", "jquery.ui.sortable"})
+@ImportJQueryUI({"mouse", "sortable"})
 @Import(library="classpath:org/got5/tapestry5/jquery/assets/mixins/sortable/sortable.js")
 public class Sortable {
 	

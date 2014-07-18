@@ -46,7 +46,7 @@ $.support.cssUserSelect = (function(){
 
 if (!$.ui || !$.ui.widget) {
     // duck punch $.cleanData like jQueryUI does to get that remove event
-    // https://github.com/jquery/jquery-ui/blob/master/ui/jquery.ui.widget.js#L16-24
+    // https://github.com/jquery/jquery-ui/blob/master/ui/widget.js#L26-36
     var _cleanData = $.cleanData;
     $.cleanData = function( elems ) {
         for ( var i = 0, elem; (elem = elems[i]) != null; i++ ) {

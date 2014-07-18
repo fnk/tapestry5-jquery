@@ -10,8 +10,8 @@
  * {{/TODO}}
  *
  * Depends:
- *   jquery.ui.core.js
- *   jquery.ui.widget.js
+ *   core.js
+ *   widget.js
  */
 (function( $ ) {
 

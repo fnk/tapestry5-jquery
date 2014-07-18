@@ -26,7 +26,7 @@ import org.got5.tapestry5.jquery.utils.JQueryUtils;
  * @tapestrydoc
  */
 @SupportsInformalParameters
-@ImportJQueryUI(value = { "jquery.ui.mouse", "jquery.ui.draggable", "jquery.ui.resizable", "jquery.ui.button", "jquery.ui.dialog" })
+@ImportJQueryUI(value = { "mouse", "draggable", "resizable", "button", "dialog" })
 public class Dialog implements ClientElement
 {
     /**

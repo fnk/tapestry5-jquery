@@ -137,7 +137,7 @@ public class JQueryModule
         configuration.add(JQUERY_CORE_PATH,
             String.format("classpath:org/got5/tapestry5/jquery/jquery_core/jquery-${%s}.js", JQUERY_VERSION));
 
-        configuration.add(JQUERY_UI_VERSION, JQueryVersion.UI_1_10_3);
+        configuration.add(JQUERY_UI_VERSION, JQueryVersion.UI_1_x);
         configuration.add(JQUERY_UI_PATH,
                 String.format("classpath:org/got5/tapestry5/jquery/ui_${%s}", JQUERY_UI_VERSION));
         configuration.add(JQUERY_UI_DEFAULT_THEME, "classpath:org/got5/tapestry5/jquery/themes/ui-lightness/jquery-ui.css");

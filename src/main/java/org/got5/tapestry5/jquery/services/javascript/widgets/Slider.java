@@ -45,8 +45,8 @@ public class Slider implements JavaScriptStack
     	final List<Asset> javaScriptStack = new ArrayList<Asset>();
 
         javaScriptStack.add(assetSource.getExpandedAsset("${assets.path}/components/slider/slider.js"));
-        javaScriptStack.add(assetSource.getExpandedAsset("${jquery.ui.path}/jquery.ui.mouse.js"));
-        javaScriptStack.add(assetSource.getExpandedAsset("${jquery.ui.path}/jquery.ui.slider.js"));
+        javaScriptStack.add(assetSource.getExpandedAsset("${jquery.ui.path}/mouse.js"));
+        javaScriptStack.add(assetSource.getExpandedAsset("${jquery.ui.path}/slider.js"));
         
         return javaScriptStack;
     }

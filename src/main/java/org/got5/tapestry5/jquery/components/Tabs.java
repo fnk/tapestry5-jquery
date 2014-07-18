@@ -47,9 +47,9 @@ import org.got5.tapestry5.jquery.utils.JQueryUtils;
  * @tapestrydoc
  */
 @SupportsInformalParameters
-@ImportJQueryUI(value = { "jquery.ui.core",
-                          "jquery.ui.widget",
-                          "jquery.ui.tabs" })
+@ImportJQueryUI(value = { "core",
+                          "widget",
+                          "tabs" })
 @Import(library =         "${assets.path}/components/tabs/tabs.js")
 public class Tabs extends AbstractExtendableComponent
 {

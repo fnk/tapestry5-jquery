@@ -19,7 +19,7 @@ import org.got5.tapestry5.jquery.services.messages.MessageProvider;
  * A mixin used to attach a JavaScript confirmation box to the onclick
  * event of any component that implements ClientElement.
  */
-@ImportJQueryUI(value = { "jquery.ui.mouse", "jquery.ui.draggable", "jquery.ui.resizable", "jquery.ui.button", "jquery.ui.dialog" })
+@ImportJQueryUI(value = { "mouse", "draggable", "resizable", "button", "dialog" })
 @Import(stack = ConfirmStack.STACK_ID)
 public class Confirm
 {
